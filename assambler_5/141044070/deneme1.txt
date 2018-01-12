@@ -1,0 +1,8 @@
+  myCPUProgram+("mov r1,"+str1);
+    myCPUProgram+("mov r2,"+str2);
+    myCPUProgram+("add r3,r1");
+    myCPUProgram+"sub r2,1";
+    myCPUProgram+"jmp r2,7";
+    myCPUProgram+"jmp 3";
+    myCPUProgram+"prn r3";
+    myCPUProgram+"hlt";

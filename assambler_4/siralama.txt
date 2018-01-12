@@ -1,0 +1,88 @@
+mov #1,30
+mov #2,23   ;program degerleri memorye yukler
+mov #3,4    ;ve karsilatirarak  bir sonraki ile yerdegistirir
+mov #4,56   ;jpn ile karsilastirma yapar ve degistirir
+mov #5,34   ;ayni seyi 10 kez yapar....
+mov #6,56
+mov #7,89
+mov #8,32
+mov #9,45
+mov #10,25
+mov r3,10 ;repeat block times 10
+mov #1,r1   ;starter the program and sorted #2
+mov r1,r2
+sub r2,#2
+jpn r2,19
+mov #2,r2
+mov r2,#1
+mov r1,#2
+mov #2,r1   ;starter the program and sorted #3
+mov r1,r2
+sub r2,#3
+jpn r2,26
+mov #3,r2
+mov r2,#2
+mov r1,#3
+mov #3,r1   ;starter the program and sorted #4
+mov r1,r2
+sub r2,#4
+jpn r2,33
+mov #4,r2
+mov r2,#3
+mov r1,#4
+mov #4,r1   ;starter the program and sorted #5
+mov r1,r2
+sub r2,#5
+jpn r2,40
+mov #5,r2
+mov r2,#4
+mov r1,#5
+mov #5,r1   ;starter the program and sorted #6
+mov r1,r2
+sub r2,#6
+jpn r2,47
+mov #6,r2
+mov r2,#5
+mov r1,#6
+mov #6,r1   ;starter the program and sorted #7
+mov r1,r2
+sub r2,#7
+jpn r2,54
+mov #7,r2
+mov r2,#6
+mov r1,#7
+mov #7,r1   ;starter the program and sorted #8
+mov r1,r2
+sub r2,#8
+jpn r2,61
+mov #8,r2
+mov r2,#7
+mov r1,#8
+mov #8,r1   ;starter the program and sorted #9
+mov r1,r2
+sub r2,#9
+jpn r2,68
+mov #9,r2
+mov r2,#8
+mov r1,#9
+mov #9,r1   ;starter the program and sorted #10
+mov r1,r2
+sub r2,#10
+jpn r2,75
+mov #10,r2
+mov r2,#9
+mov r1,#10
+sub r3,1
+jmp r3,78 ;repeat scope times 10.
+jmp 12
+prn #1
+prn #2
+prn #3
+prn #4
+prn #5
+prn #6
+prn #7
+prn #8
+prn #9
+prn #10
+hlt

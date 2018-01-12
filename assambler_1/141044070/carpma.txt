@@ -1,0 +1,9 @@
+mov r1,40
+mov r2,9
+mov r3,0
+add r3,r1
+sub r2,1
+jmp r2,8
+jmp 4
+prn r3
+hlt

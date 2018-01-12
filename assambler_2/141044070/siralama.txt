@@ -1,0 +1,19 @@
+mov #1,1;com
+mov r2, 0;
+mov r5, 20;com
+mov r1, 10;com
+sub r1, #1;com
+add r2, r5;com
+jpn r1,9;com
+jmp 5;com
+prn r2;com
+add r2, #1;com
+sub r2, #1
+sub r2,#1;
+mov r2,#3;com
+mov #3,r1;com
+mov #3,r3;
+mov r4,50;
+sub r4,r5;
+mov #2, 2;com
+hlt

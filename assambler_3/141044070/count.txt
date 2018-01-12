@@ -1,0 +1,6 @@
+mov r1,10
+prn r1
+sub r1,1
+jmp r1,6
+jmp2
+hlt
